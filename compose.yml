@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  webgl:
+    container_name: brushes-webgl
+    image: brushes-webgl
+    ports:
+      - "8080:80"
+    # volumes: #Debug
+    #   - './nginx:/etc/nginx/conf.d'
